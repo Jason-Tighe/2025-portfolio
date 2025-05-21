@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: lime;
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: white;
 }
