@@ -1,7 +1,6 @@
 import './App.css'
-import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
 import { useEffect, useRef, useState } from 'react';
+import AboutMe from './pages/AboutMe';
 
 
 export default function App() {
@@ -35,11 +34,12 @@ export default function App() {
       <a href="#contact" className="hover:text-gray-900 hover:underline">Contact</a>
       </nav>
 
-      <main className="pt-8">
-      <section id="about" className="min-h-screen p-8 flex flex-col items-center bg-gray-50">
+      <main className="pt-6">
+      <section id="about" className="min-h-screen p-10 flex flex-col items-center bg-gray-50">
         <h1 className="text-4xl font-extrabold mb-6 text-gray-900">About Me</h1>
         <p className="max-w-2xl text-center text-gray-700 leading-relaxed">
         </p>
+        <AboutMe />
       </section>
 
       <section id="projects" className="min-h-screen p-8 bg-white flex flex-col items-center">
