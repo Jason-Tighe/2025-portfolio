@@ -1,6 +1,8 @@
 import './App.css'
 import { useEffect, useRef, useState } from 'react';
 import AboutMe from './pages/AboutMe';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 
 export default function App() {
@@ -35,28 +37,22 @@ export default function App() {
       </nav>
 
       <main className="pt-6">
-      <section id="about" className="min-h-screen p-10 flex flex-col items-center bg-gray-50">
+      <section id="about" className="min-h-screen p-20 flex flex-col items-center bg-gray-50">
         <h1 className="text-4xl font-extrabold mb-6 text-gray-900">About Me</h1>
-        <p className="max-w-2xl text-center text-gray-700 leading-relaxed">
-        </p>
+        <p className="max-w-2xl text-center text-gray-700 leading-relaxed"></p>
         <AboutMe />
       </section>
 
       <section id="projects" className="min-h-screen p-8 bg-white flex flex-col items-center">
         <h2 className="text-3xl font-bold mb-6 text-gray-900">Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl"></div>
+        <Projects />
       </section>
 
       <section id="contact" className="min-h-screen p-8 bg-gray-50 flex flex-col items-center">
-        <h2 className="text-3xl font-bold mb-6 text-gray-900">Contact</h2>
-        <p className="text-gray-700 mb-4">
-        </p>
-        <div className="flex gap-4">
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">LinkedIn</a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">GitHub</a>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Resume</a>
-        </div>
+        <h2 className="text-3xl font-bold mb-6 text-gray-900">Get in Touch</h2>
+        <p className="text-gray-700 mb-4"></p>
+        <Contact />
       </section>
       </main>
     </div>
