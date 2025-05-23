@@ -1,3 +1,6 @@
+import madMinute from "../assets/mad-minute.png";
+
+
 export default function Projects() {
 
 
@@ -7,11 +10,20 @@ export default function Projects() {
                 <div className="flex flex-col gap-8 max-w-6xl">
                     {/* Project Card 1 - Screenshot Left */}
                     <div className="flex flex-col md:flex-row items-center gap-8">
-                        <div className="w-full md:w-1/2 h-40 bg-gray-300 rounded-lg flex items-center justify-center">
-                            <span className="text-gray-500">Screenshot Placeholder</span>
+                        <div className="w-full md:w-1/2 h-auto bg-gray-300 rounded-lg flex items-center justify-center">
+                            <a href="/mad-minute" target="_blank" rel="noopener noreferrer">
+                                <img src={madMinute} alt="Mad Minute Screenshot" className="w-full object-cover rounded-lg" />
+                            </a>
                         </div>
                         <div className="w-full md:w-1/2 bg-gray-100 p-6 rounded-lg shadow-md">
-                            <h3 className="text-xl font-semibold mb-4">Mad Minute</h3>
+                            <div className="flex justify-between items-center">
+                                <h3 className="text-xl font-semibold mb-4">Mad Minute</h3>
+                                <a href="/mad-minute" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline flex items-center gap-2">
+                                    <span>Try It Out for Yourself</span>
+                                    <i className="fas fa-arrow-right text-lg font-bold"></i>
+                                </a>
+                            </div>
+                            <hr className="my-4 border-gray-300" />
                             <p className="text-gray-700 mb-4">
                                 A fun math mini game that tests the user's quick skills to reach the target number.
                             </p>

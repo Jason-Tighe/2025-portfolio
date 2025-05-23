@@ -37,7 +37,7 @@ export default function App() {
       </nav>
 
       <main className="pt-6">
-      <section id="about" className="min-h-screen p-20 flex flex-col items-center bg-gray-50">
+      <section id="about" className="min-h-[80vh] p-20 flex flex-col items-center bg-gray-50">
         <h1 className="text-4xl font-extrabold mb-6 text-gray-900">About Me</h1>
         <p className="max-w-2xl text-center text-gray-700 leading-relaxed"></p>
         <AboutMe />
@@ -49,7 +49,7 @@ export default function App() {
         <Projects />
       </section>
 
-      <section id="contact" className="min-h-screen p-8 bg-gray-50 flex flex-col items-center">
+      <section id="contact" className="min-h-[60vh]  p-8 bg-gray-50 flex flex-col items-center">
         <h2 className="text-3xl font-bold mb-6 text-gray-900">Get in Touch</h2>
         <p className="text-gray-700 mb-4"></p>
         <Contact />
