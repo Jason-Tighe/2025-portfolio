@@ -12,10 +12,10 @@ export default function AboutMe() {
         <div className="max-w-3xl text-center text-gray-800 leading-relaxed space-y-6 text-justify">
             <p className="text-lg">
                 I’m a <span className="font-semibold">software engineer</span> with a background in
-                <span className="font-semibold"> accounting and information systems</span> — a combination that helps me think logically, communicate clearly, and build practical, business-minded software.
+                <span className="font-semibold"> Accounting and Information Systems</span> — a combination that helps me think logically, communicate clearly, and build practical, business-minded software.
             </p>
             <p className="text-lg">
-                One pivotal moment in my journey came while I was still in accounting. I had built and maintained a detailed report using nothing but Excel — complex formulas, XLOOKUPs, manual processes. Then, I watched a developer automate the entire thing with code. That moment stuck with me. I realized:{" "}
+                One pivotal moment in my journey came while I was still in accounting. I had built and maintained a detailed report using nothing but Excel — complex formulas, XLOOKUPs, manual processes. Then, I watched a developer automate the entire report generation with Python. That moment stuck with me. I realized:{" "}
                 <span className="italic text-gray-900 font-medium">that’s what I want to do.</span>
             </p>
             <p className="text-lg">
